@@ -18,7 +18,7 @@ services:
 
   cloudbeaver:
     container_name: nest-shop-cloudbeaver
-    image: dbeaver/cloudbeaver:21.0.0
+    image: dbeaver/cloudbeaver:23.3.4
     restart: unless-stopped
     ports:
       - 8978:8978
